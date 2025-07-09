@@ -23,6 +23,7 @@ import himalay from "../public/himalay.jpg"
 import rafting from "../public/rafting.jpg"
 import vally from "../public/vally.jpg"
 import supta from "../public/supta.jpg"
+import view from "../public/view.jpg"
 
 
 export default function App() {
@@ -31,7 +32,7 @@ export default function App() {
   const headerRef = useRef(null);
   const containerRef = useRef(null);
 
-  const carousalPhotos = [paragliding, himalay, supta, vally, baseCamp]
+  const carousalPhotos = [paragliding, view, himalay, supta, vally, baseCamp]
    const [index, setIndex] = useState(0);
 
     // Auto slide every 2 sec
