@@ -19,11 +19,8 @@ import baseCamp from "../public/baseCamp.jpg";
 
 //Main Crousal photos
 
-import himalay from "../public/himalay.jpg"
 import rafting from "../public/rafting.jpg"
 import vally from "../public/vally.jpg"
-import supta from "../public/supta.jpg"
-import view from "../public/view.jpg"
 
 
 export default function App() {
@@ -32,7 +29,7 @@ export default function App() {
   const headerRef = useRef(null);
   const containerRef = useRef(null);
 
-  const carousalPhotos = [paragliding, view, himalay, supta, vally, baseCamp]
+  const carousalPhotos = [paragliding, vally, ]
    const [index, setIndex] = useState(0);
 
     // Auto slide every 2 sec
@@ -197,7 +194,7 @@ export default function App() {
       transition={{ duration: 4 }}
       className="absolute inset-0 flex flex-col items-center justify-center text-center px-4"
     >
-      <h2 className="text-5xl md:text-7xl font-bold stroke-3 text-white mb-6 drop-shadow-lg ">
+      <h2 className="text-5xl md:text-7xl font-bold stroke-3  text-white mb-6 drop-shadow-lg ">
         Discover Himalayan Wonders
       </h2>
     </motion.div>
